@@ -1,0 +1,295 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.container{
+	width: 1366px;
+	height: 1500px;
+	background: #ccc;
+	margin: 0 auto;
+}
+.topo{
+	width: 1356px;
+	height: 100px;
+	margin-left: 5px;
+	padding-top: 5px;
+}
+.logo{
+	width: 120px;
+	height: 90px;
+	margin-left: 50px;
+	float: left;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+}
+.logo img{
+	width: 120px;
+	margin-left: 30px;
+}
+.menu{
+	width: 1100px;
+	height: 90px;
+	float: left;
+	margin-left: 55px;
+	text-align: center;
+	font-size: 30px;
+}
+.menu ul{
+	list-style-type: none;
+	margin-left: 160px;
+	margin-top: 30px;
+}
+.menu li{
+	float:left;
+	border-right: 1px solid #BEC7CE;
+}
+.semBorda{
+	border-right: none !important;
+}
+.menu a{
+	padding: 15px 30px;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Dosis', sans-serif;
+}
+.menu a:hover{
+	color: #004785;
+}
+.banner{
+	width: 1356px;
+	height: 450px;
+	background: #00F;
+	margin-left: 5px;
+}
+.banner img{
+	width: 1356px;
+	height: 450px;
+}
+.content{
+	width: 1356px;
+	height: 620px;
+	background: #ccc;
+	margin-left: 5px;
+	padding-top: 10px;
+}
+.contentLeft{
+	width: 800px;
+	height: 610px;
+	background: #ccc;
+	padding-top: 5px;
+	float: left;
+}
+.sobre{
+	width: 790px;
+	height: 300px;
+	background: #fff;
+	margin-left: 5px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 15px;
+}
+.sobre p{
+	margin: 10px 10px 10px 10px;
+	text-align: justify;
+}
+.sobre h2{
+	padding: 15px;
+	color: #004785;
+}
+.sobre img{
+	width: 100px;
+	margin: 25px 25px
+	25px 25px;
+	float: left;
+
+}
+.galeria{
+	width: 790px;
+	height: 300px;
+	background: #fff;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-family: 'Dosis', sans-serif;
+}
+.galeria h2{
+	padding: 10px;
+	color: #004785;
+}
+.galeria h3{
+	text-align: left;
+	color: #ccc;
+}
+.galeriaBox img{
+	width: 120px;
+	margin-top: 5px;
+	margin-bottom: 5px
+}
+.galeriaBox{
+	list-style-type: none;
+}
+.galeriaBox li{
+	width: 200px;
+	float: left;
+	margin-left: 45px;
+	font-size: 13px;
+	text-align: left;
+}
+.news{
+
+	width: 500px;
+	height: 615px;
+	background: #004785;
+	float: left;
+	margin-left: 30px;
+
+}
+.newsBox{
+	width: 450px;
+	height: 140px;
+	background: #fff;
+	margin-left: 25px;
+	margin-top: 10px;
+
+}
+.newsBox h3{
+	font-size: 15px;
+	padding: 5px;
+	font-family: 'Dosis', sans-serif;
+	margin-top: 10px;
+	text-align: left;
+	color: #ccc;
+}
+.newsBox img{
+	width: 150px;
+	margin-left: 10px;
+	float: left;
+}
+.newsBox img:hover{
+	opacity: 0.8;
+}
+.newsBox p{
+	width: 250px;
+	float: left;
+	margin-left: 15px;
+	text-align: justify;
+}
+.compartilhar ul{
+	list-style-type: none;
+
+}
+.compartilhar img{
+	width: 20px;
+	margin-left: 60px;
+	padding: 15px 30px;
+;
+}
+.compartilhar img:hover{
+	transform: scale (1.1);
+}
+.email img{
+	margin-left: -15px;
+}
+
+.email img:hover{
+	transform: scale (1.1);
+}
+.cor1{
+	background: #002c4f;
+}
+.rodape{
+	width: 1356px;
+	height: 300px;
+	background: #fff;
+	margin-left: 5px;
+}
+.linha1{
+	width: 1356px;
+	height: 300px;
+}
+.linha1 img{
+	width: 150px;
+	margin-left: 50px;
+	margin-top: 50px;
+	float: left;
+}
+.link{
+	float: left;
+	margin-top: 30px;
+	margin-left: 100px;
+	font-family: 'Dosis', sans-serif;
+}
+.link h2{
+	text-align: center;
+	color: #004785;
+}
+.link a{
+	font-size: 18px;
+	color: #ccc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-decoration: none;
+}
+.link a:hover{
+	color: #004785;
+}
+.link li{
+	margin-top: 20px;
+}
+.titulo{
+	color: #fff;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-top: 5px;
+}
+.endereco{
+	width: 250px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 100px;
+	color: #004785;
+	font-family:'Dosis', sans-serif;
+}
+.endereco h2{
+	color:#004785;
+}
+.mapa{
+	float: left;
+	margin-left: 150px;
+	margin-top: 30px;
+}
+.mapa iframe{
+	width: 250px;
+	height: 250px;
+}
+.linha2 img{
+	width: 50px;
+}
+.linha2 ul{
+	width: 500px;
+	height: 70px;
+	margin: 30px auto;
+}
+.linha2 li{
+	float: left;
+	margin-right: 30px;
+}
+.linha2 p{
+	text-align: center;
+	color: ##004785;
+}
+
+
+
+
+
+/* OBSERVAÇÃO ---> ordem: PADDING OU MARGIN
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 20px;
+margin-left: 50px;
+margin: 10px, 10px, 20px, 50px;
+#fff = branco
+#ccc = cinza
+#000 = preto
+*/
